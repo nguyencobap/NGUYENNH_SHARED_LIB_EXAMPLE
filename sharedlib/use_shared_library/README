@@ -1,0 +1,8 @@
+Folder này là demo cách dùng lib
+Cách sử dụng: 
+	cd use_shared_library
+	mkdir bin
+	cd bin 
+	cmake .. 
+	make 
+	./main 1 2

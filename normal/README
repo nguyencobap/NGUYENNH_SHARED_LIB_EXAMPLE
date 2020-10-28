@@ -1,0 +1,6 @@
+NguyenNH: folder này là ví dụ cách hoạt động của make file
+Cách sử dụng:
+	cd normal
+	make 
+	./main 2 3 
+Trong đó  2 3 là 2 số int nhập từ bàn phím để file thực thi 

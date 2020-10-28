@@ -1,0 +1,8 @@
+Folder này là foler dùng để tạo lib
+Cách sử dụng: 
+	cd generate_shared_library
+	mkdir bin
+	cd bin 
+	cmake .. 
+	make 
+	./main 1 2

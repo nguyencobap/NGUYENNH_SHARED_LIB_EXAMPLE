@@ -1,0 +1,4 @@
+NguyenNH: folder này là ví dụ cách hoạt động của shared library
+
+Folder generate_shared_library là foler dùng để tạo lib 
+Folder use_shared_library là folder dùng để demo cách sử dụng lib 
