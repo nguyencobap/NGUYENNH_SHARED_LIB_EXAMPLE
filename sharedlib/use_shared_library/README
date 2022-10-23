@@ -4,5 +4,9 @@ Cách sử dụng:
 	mkdir bin
 	cd bin 
 	cmake .. 
-	make 
-	./main 1 2
+	cmake --build .
+Khi chạy xong thì sẽ build ra file file:
+	- sharedlib/use_shared_library/bin/Debug/main.exe
+Để chạy được file này thì phải copy phepcong.dll vào folder chạy:
+	cp ..\..\generate_shared_library\bin\Debug\phepcong.dll . 
+	.\Debug\main.exe 2 4

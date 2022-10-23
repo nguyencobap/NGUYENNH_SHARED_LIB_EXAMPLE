@@ -3,6 +3,11 @@ Cách sử dụng:
 	cd generate_shared_library
 	mkdir bin
 	cd bin 
-	cmake .. 
-	make 
-	./main 1 2
+	cmake -DCMAKE_WINDOWS_EXPORT_ALL_SYMBOLS=TRUE .. 
+	cmake --build .
+
+Khi chạy xong thì sẽ build ra file 2 file:
+	- sharedlib/generate_shared_library/bin/Debug/phepcong.lib
+	- sharedlib/generate_shared_library/bin/Debug/phepcong.dll
+2 file này để dùng cho example trong foler use_shared_library:
+	- Đọc tiếp README của use_shared_library nhé Lươn :D
